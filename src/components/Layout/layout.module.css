@@ -1,0 +1,20 @@
+.layout {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 0 1rem;
+  width: 100%;
+  max-width: 33.75rem;
+  background-color: var(--white);
+}
+
+@media (min-width: 768px) {
+  .layout {
+    border-radius: var(--base-page-border-radius);
+    box-shadow: 0 0.75rem 44px 0 rgba(78, 81, 82, 0.12);
+    padding: var(--base-page-vertical-padding)
+      var(--base-page-horizontal-padding);
+    max-width: var(--max-page-width);
+    background-color: var(--profile-background-color);
+  }
+}
