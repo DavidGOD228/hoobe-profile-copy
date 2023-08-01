@@ -2,7 +2,7 @@
   position: relative;
   height: 292px;
   width: 100%;
-  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 @media (max-width: 768px) {
@@ -49,7 +49,7 @@
   position: absolute;
 }
 
-.imageFooter {
+.footer {
   background: var(--linkcard-overlay-gradient);
   width: 100%;
   height: 64px;

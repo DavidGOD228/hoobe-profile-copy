@@ -2,7 +2,7 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  padding: 0 1rem;
+  padding: var(--base-page-vertical-padding) var(--base-page-horizontal-padding);
   width: 100%;
   max-width: 33.75rem;
   background-color: var(--white);

@@ -14,11 +14,13 @@ export const UserContent = ({ item }: Props) => {
     <div className={styles.container}>
       {item.content.hasPhoto && <ImageContent item={item} />}
       {item.content.isEmbedEnabled && (
-        <iframe
+        <><iframe
           height={290}
           className={styles.video}
           src={youtubeLinkBuild(item.content.link)}
         />
+            <div className={styles.footer}/>
+        </>
       )}
     </div>
   );
@@ -37,7 +39,7 @@ const ImageContent = ({ item }: Props) => {
         src={imageLinkBuild(item.content.altId)}
         alt={item.content.altId}
       />
-      <div className={styles.imageFooter}>
+      <div className={styles.footer}>
         <div className={styles.imageTitle}>{item.content.title}</div>
         <div className={styles.imageLogoContainer}>
           <Image fill src={HoobeIcon} alt={item.content.altId} />
