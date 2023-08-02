@@ -1,6 +1,6 @@
-import { User, UserSocialPlatform } from "@/types/user";
+import { IUser, IUserSocialPlatform } from "@/types/user";
 
-export interface Content {
+export interface IContent {
   content: {
     id: string;
     altId: string;
@@ -29,12 +29,12 @@ export interface Content {
   contentSettings: {};
 }
 
-export interface UserProfileProps {
+export interface IUserProfileProps {
   userData:
     | {
-        user: User;
-        userSocialPlatform: UserSocialPlatform[];
-        content: Content[];
+        user: IUser;
+        userSocialPlatform: IUserSocialPlatform[];
+        content: IContent[];
       }
     | null
     | undefined;

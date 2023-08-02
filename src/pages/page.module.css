@@ -1,63 +1,77 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 
-  min-height: 100vh;
-  background: var(--body-background);
+    min-height: 100vh;
+    background: var(--body-background);
 }
 
 @media (min-width: 768px) {
-  .main {
-    padding: 3rem 3rem 0;
-  }
+    .main {
+        padding: 3rem 3rem 0;
+    }
 }
 
 .footer {
-  padding: 6rem 0 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    padding: 6rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .ctaButton {
-  border-radius: 0.625rem;
-  padding: 0.5rem 1.875rem;
-  height: auto;
-  background: var(--primary);
-  color: var(--white);
-  outline: none;
-  font-family: var(--font-family-bold);
-  font-size: var(--font-size-normal);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
+    border-radius: 0.625rem;
+    padding: 0.5rem 1.875rem;
+    height: auto;
+    background: var(--primary);
+    color: var(--white);
+    outline: none;
+    font-family: var(--font-family-bold);
+    font-size: var(--font-size-normal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .12s ease-in-out;
 }
 
 .logo {
-  margin-right: 0.8em;
+    margin-right: 0.8em;
 }
 
 .ctaButton span {
-  font-size: 14px;
-  font-family: var(--font-family-semibold);
-  text-align: center;
-  font-weight: 800;
-  letter-spacing: 1px;
+    font-size: 14px;
+    font-family: var(--font-family-semibold);
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 1px;
 }
 
 .ctaButton:hover {
-  background: var(--primary-dark);
+    background: var(--primary-dark);
 }
 
 .login {
-  color: var(--med-gray);
-  font-weight: bold;
+    color: var(--med-gray);
+    font-family: var(--font-family-semibold);
+    font-size: var(--font-size-small);
+    transition: color .3s ease-in-out;
+}
+
+.login:hover {
+    color: var(--hoobe-primary);
 }
 
 .loginLink {
-  margin-top: 1.4em;
-  margin-bottom: 0.4em;
+    margin-top: 1.4em;
+    margin-bottom: 0.4em;
+    text-decoration: none;
+    color: var(--light-gray);
+    font-family: var(--font-family-semibold);
+}
+
+.loginLink:hover {
+    text-decoration: underline;
 }

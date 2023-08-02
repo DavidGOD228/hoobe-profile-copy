@@ -1,34 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# hoobe-coding-exercise
+🚀 Thank you for applying to hoo.be, we are glad you're here!
 
-## Getting Started
+🤖 The developers on hoo.be's dev team operate with lots of autonomy, and we hope this coding exercise will give you an opportunity to work independently and show us your skills and familiarity with React, Typescript, SCSS, and any other technologies you like to use.
 
-First, run the development server:
+## Output
+🚢 The total time we want you to spend on this is no more than 5 hours. We are not basing your success on how long this takes you, this is an opportunity for you to demonstrate you coding style and experience with the front-end technologies we use. Please bill us for only the number of hours you used to complete the project.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+🏁 Once you have completed the test, please submit a link to a public Github repository that includes directions on how to preview the work, and send us an invoice for your time.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## The exercise
+🏗️ Here is a hoo.be page in our development environment: https://devapp.hoo.be/hoobe_coding_exercise. Using React, Nextjs, SCSS, and any other technologies or libraries you like, build a copy of this page.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Assets
+[The assets](/assets): these will assist you with generating the content on the page.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+[Page data](pageData.json): this is API response data that is used to build the page.
 
-## Learn More
+<br>
+<br>
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+🎰 **Bonus Points**<br>
+Add your favorite animations, assets, images, UX improvements, or other visual effects you like. Make this your own and show us what you like to build!

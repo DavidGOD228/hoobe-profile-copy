@@ -1,6 +1,11 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import styles from "./layout.module.css";
+import { NextPage } from "next";
 
-export const Layout = ({ children }) => {
+interface ILayout {
+  children: ReactNode;
+}
+
+export const Layout: NextPage<ILayout> = ({ children }) => {
   return <div className={styles.layout}>{children}</div>;
 };

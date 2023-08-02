@@ -1,4 +1,4 @@
-export interface User {
+export interface IUser {
   id: string;
   fullName: string;
   handle: string;
@@ -13,7 +13,7 @@ export interface User {
   imageUpdatedUtc: string;
 }
 
-export interface UserSocialPlatform {
+export interface IUserSocialPlatform {
   id: string;
   altId: string;
   userId: string;

@@ -1,15 +1,14 @@
-import React from "react";
-import { Content } from "@/types/profile";
+import { IContent } from "@/types/profile";
 import Image from "next/image";
 import { imageLinkBuild, youtubeLinkBuild } from "@/helpers/link";
 import HoobeIcon from "../../../public/hoobe.svg";
 import styles from "./content.module.css";
 
-interface Props {
-  item: Content;
+interface IProps {
+  item: IContent;
 }
 
-export const UserContent = ({ item }: Props) => {
+export const UserContent = ({ item }: IProps) => {
   return (
     <div className={styles.container}>
       {item.content.hasPhoto && <ImageContent item={item} />}
@@ -26,7 +25,7 @@ export const UserContent = ({ item }: Props) => {
   );
 };
 
-const ImageContent = ({ item }: Props) => {
+const ImageContent = ({ item }: IProps) => {
   const handlePress = () => {
     window.open(item.content.link);
   };
@@ -37,7 +36,7 @@ const ImageContent = ({ item }: Props) => {
         className={styles.image}
         fill
         src={imageLinkBuild(item.content.altId)}
-        alt={item.content.altId}
+        alt={item.content.altId || "Image Content"}
       />
       <div className={styles.footer}>
         <div className={styles.imageTitle}>{item.content.title}</div>
